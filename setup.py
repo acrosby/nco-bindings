@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup (name = 'nco',
   version = '0.0beta',
@@ -17,4 +17,5 @@ setup (name = 'nco',
         "Operating System :: POSIX",
         "Programming Language :: Python",
     ],
+  packages = find_packages(),
   )
